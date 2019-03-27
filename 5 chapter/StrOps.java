@@ -6,8 +6,8 @@ class StrOps{
 		int result, idx; 
 		char ch; 
 
-		System.out.println("Length of str1: " + str1.Length());
-		for (int i = 0; i < str1.Length(); i++){
+		System.out.println("Length of str1: " + str1.length());
+		for (int i = 0; i < str1.length(); i++){
 			System.out.print(str1.charAt(i));
 		}
 		System.out.println();
@@ -26,5 +26,12 @@ class StrOps{
 		if(result == 0) System.out.println("str1 and str3 are equal"); 
 		else if(result < 0) System.out.println("str1 is less than str3"); 
 		else System.out.println("str1 is greater than str3"); 
+
+		str2 = "One Two Three One";
+
+		idx = str2.indexOf("One");
+		System.out.println("Index of first occurrence of One: " + idx);
+		idx = str2.lastIndexOf("One");
+		System.out.println("Index of last occurrence of One: " + idx);
 	}
 }
