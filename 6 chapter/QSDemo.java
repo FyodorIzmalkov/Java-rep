@@ -26,10 +26,29 @@ class Quicksort{
 				i++;
 				j--;
 			}
-		} while (i <= j)
+		} while (i <= j);
 		if (left < j )
 			qs(items, left, j);
 		if (i < right)
 			qs(items, i, right);
 	}	
+}
+
+class QSDemo{
+	public static void main(String args[]){
+		char a[] = { 'd', 'x', 'a', 'r', 'p', 'j', 'i' };
+		int i;
+
+		System.out.println("Original array: ");
+		for (i = 0; i < a.length; i++){
+			System.out.print(a[i]);
+		}
+		System.out.println();
+		Quicksort.qsort(a);
+
+		System.out.println("Sorted array: ");
+		for (i = 0; i < a.length; i++){
+			System.out.print(a[i]);
+		}
+	}
 }
