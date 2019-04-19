@@ -1,6 +1,11 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
+
+// Fyodor Izmalkov
+// fedorizmalkov@gmail.com
+// Practice module #2
+
 public class StreamsPractice{
 	public static void main(String args[]){
 
