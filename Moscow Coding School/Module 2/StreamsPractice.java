@@ -10,6 +10,7 @@ public class StreamsPractice{
 
 		List <Integer> list = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3)); //Int's List
 		System.out.println("list content : " + list); // Print int's list
+		// ASSIGNMENT IS HERE 
 		int num = list.stream().collect(Collectors.toSet()).size(); // get unique ints quantity
 		System.out.println("Number of unique integers: " + num); // print quantity
 
@@ -25,7 +26,10 @@ public class StreamsPractice{
 		listOfLists.add(firstList); //add first list
 		listOfLists.add(secondList); // add second list
 		listOfLists.add(thirdList); // add third list
-		System.out.println("Content of listOfLists: " + listOfLists);
+		System.out.println("Content of listOfLists: " + listOfLists); // print list of lists
+		// ASSIGNMENT IS HERE
+		Optional <Boolean> result = listOfLists.stream().flatMap(i->i.stream()).parallel().reduce((a,b) -> a ^ b);
+		System.out.println("Result is: " + result); // print result
 
 	}
 }
