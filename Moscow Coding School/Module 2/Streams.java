@@ -56,5 +56,60 @@ public class Streams{
 
 		/* Операция FlatMap позволяет создавать из потока потоков - поток */
 		// flatMap ( l -> l.stream() );
+		
+		// тип Optional говорит о том что значение в нем может быть, а может и не быть
+		// Optional <Integer> max = stream.max();
+		// .isPresent() возвращает true если в Optional есть значение
+		// .get() возвращает значение или null
+		// .orElse() позволяет задать значение "по умолчанию"
+		//		String s = opt.orElse(""); Т.е либо верни что там лежит либо верни то что мы передаем аргументом
+		// .orElseThrow() если там ничего не лежит - выброси исключение
+		// 		String s = opt.orElseThrow(MyException::new);
+
+		// Коллекторы позволяют нам собирать значения которые лежат в нашем потоке
+		// class - Collectors
+		// String s = stream.collect(Collectors.joining("; "));  // объедени все значения через то что мы укажем
+		// System.out.println(s);
+		// String s = stream.map(i -> "" + i.length()).collect(Collectors.joining("; ")); // коллектору нужны строчки
+		// System.out.println(s);
+
+		// FLAT MAP
+		// List <Integer> list = new ArrayList<>();
+		// stream.flatMap(i->Stream.of(i, i.length())) // Берем каждое значение из нашего потока и создаем поток - где первое значение это сама строка, а второе - длина строки
+		// 		.forEach(System.out::println);
+
+		// List <Integer> list = Arrays.asList(1,2);
+		// System.out.println(list.stream().reduce(0, (a, b)->a+b));
+
+		// eсли List <Integer> list = Arrays.asList();
+		// тогда System.out.println(list.stream().reduce((a, b)->a+b));
+		// венрнет Optional.empty потому что явным образом неизвестен результат
+
+		// List <Integer> list = Arrays.asList();
+		// Optional <Integer> r = list.stream().reduce((a,b)-> a + b);
+		// System.out.println(r.orElse(0));
+		// System.out.println(r.orElseGet(()->2));
+		// System.out.println(r.orElseThrow(()-> new RuntimeException("Cannot get result;")));
+
+		//Map <Integer , List<Person>> result  = persons.stream().filter(person -> person.getAge() > 20).collect(Collectors.groupingBy(Person::getAge));
+		// ключ - возраст
+		// значение - список List<People> всех людей этого возраста
+
+		// сжимающий коллектор, может, например, считать количество Collectors.counting()
+
+		// Примитивные Data stream
+		// IntStream - поток для обработки примитивов типа int. DoubleStream. LongStream
+		// IntStream.of(2,3,3,4).max();
+		// .boxed() превращает в стрим объектов Integer
+		// .mapToInt() - превращает стрим в обычный IntStream
+
+		// Stream parallel() - возвращает Stream обрабатывающий данные многопоточно !Сильное ускорение
+		// Stream unordered() - возвращает неупорядоченный поток
+
+		// Поток - объект предназначенный для обработки данных
+		// Обработка - операция map / filter / reduce
+		// обработка оптимизирована: сначала мы определяем все операции, запускаем на исполение
+		// поток НЕ МОЖЕТ быть использован повторно
+
 	}
 }
