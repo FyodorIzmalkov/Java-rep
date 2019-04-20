@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="vasya" class="com.codingschool.spring.model.Person">
+        <property name="name" value="Vasiliy Poupkin"/>
+    </bean>
+</beans>
