@@ -1,0 +1,48 @@
+Позволяет управлять процессом сборки не только декларативно но и императивно
+Для конфигурирования Gradle используется язык Groovy
+
+build.Gradle
+
+task count << {
+	4.times { print "$it"}
+}
+
+зависимости. Мы можем указать что одна задача зависит от другой задачи
+
+task build << {
+	println 'building...'
+}
+task count(dependsOn: build) << { // для того что бы выполнилась задача count перед этим должна выполниться задача build
+	4.times {print "$it"}
+}
+
+gradle не предпологает по дефолту что будет работа с java, поэтому его надо сконфигурировать
+apply plugin: 'java'
+
+простой проект на gradle:
+
+apply plugin: 'java'
+
+repositories{      // определяем репозиторий для загрузки зависимостей
+	mavenCentral()
+	mavenLocal()
+	jcenter()
+}
+
+dependencies{		// определяем зависимости для приложения
+	compile 'com.google.guava:guava:20.0' // как и в maven groupId artifactId version
+
+	testCompile 'junit:junit:4.12'
+}
+
+group = 'com.jadson'
+version = '1.0-SNAPSHOT'
+
+Можно сконфигурировать Java исходники , кодировку
+Можно кастомизировать, например добавить 
+test.doFirst{
+	println 'Before testing...'
+}
+test.doLast{
+	println '...after testing.'
+}
