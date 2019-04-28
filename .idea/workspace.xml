@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d89ff9-08d0-4187-b167-74ced6a3459d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java" afterDir="false" />
     </list>
@@ -18,19 +19,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 4/theory_spring.java">
+        <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="117" column="67" selection-start-line="117" selection-start-column="67" selection-end-line="117" selection-end-column="67" />
+            <state relative-caret-position="477">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 4/src/com/codingschool/spring/SpringRunner.java">
+        <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="697">
+              <caret line="112" column="68" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -45,16 +49,8 @@
       <list>
         <option value="$PROJECT_DIR$/Moscow Coding School/Module 4/theory_spring.java" />
         <option value="$PROJECT_DIR$/Moscow Coding School/Module 4/src/com/codingschool/spring/SpringRunner.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Java-rep.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java" />
+        <option value="$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java" />
       </list>
     </option>
   </component>
@@ -87,41 +83,7 @@
               <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
               <item name="Moscow Coding School" type="462c0819:PsiDirectoryNode" />
-              <item name="Module 4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="Moscow Coding School" type="462c0819:PsiDirectoryNode" />
-              <item name="Module 4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="Moscow Coding School" type="462c0819:PsiDirectoryNode" />
-              <item name="Module 4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="Moscow Coding School" type="462c0819:PsiDirectoryNode" />
-              <item name="Module 4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingschool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="Moscow Coding School" type="462c0819:PsiDirectoryNode" />
-              <item name="Module 4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingschool" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Module 6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,12 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556464961494</updated>
-      <workItem from="1556464967715" duration="3859000" />
+      <workItem from="1556464967715" duration="9028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3859000" />
+    <option name="totallyTimeSpent" value="9028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -175,12 +137,12 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104531005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969603" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -215,6 +177,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="112" column="68" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
         </state>
       </provider>
     </entry>
