@@ -1,5 +1,7 @@
 import javax.management.modelmbean.RequiredModelMBean;
 
+import org.graalvm.compiler.serviceprovider.ServiceProvider;
+
 Sprimg Framework
 Фреймворк определяет как ваш код устроен и в нужные моменты вызывает ваш код
 Стандартизированная архитектура
@@ -104,3 +106,47 @@ public class JavaSchool{
 @Autowired
 @Qualifier("springCourse") - позволяет внедрить по имени
 private Course course;
+
+<bean id="courseService" class="com.codingschool.spring.CourseService">
+</bean>  - создаем что бы появился бин а внедрять будет через @Autowired
+бин должен быть подключен что бы конфиги работали
+
+CourseService courseService = applicationContext.getBean("courseService", CourseService.class);
+courseService.getCourses().forEach(c->System.out.println(c.getName()));
+
+Стереотипы  (аннотации)
+@Component 
+используется для обозначения Spring компонентов без XML конфигурации
+- применяется к классам
+- служит универсальным стереотипом для каждого управляемого Spring компонента
+- рекомендуется использовать более конкретные стереотипы
+- @Service
+- @Repository
+- @Controller
+Что бы автоматически регистрировать бины через аннотации, необходимо указать следующую команду в конфигурации контейнера
+<context:component-scan base-Ыpackage="ru.codingschool.project.beans"/>
+
+Это избавляет нас от необходимости прописывать ссылку на сервис
+
+Области видимости бинов
+
+Синглтон - по умолчанию, экземпляр единственного бина в контейнере
+- только один экземпляр бина создается
+- один и тот же экземпляр бина внедряется во все объекты
+
+Прототип - совершенно новый экземпляр бина создается каждый раз когда он внедряется в другой бин
+или запрашивается через getBean().
+
+<bean id="accountDao" class="..."
+	scope="prototype" />   // обязательно 
+
+	<bean id="person" class="..."
+		scope="prototype">
+		<property name="course" ref="springCourse"/> //каждый персон будет записан на курс
+	</bean>
+
+	Person person = applicationContext.getBean("person", Person.class);
+	person.setName("Vadim");
+	System.out.println(person.getName());
+	System.out.println(person.getCourse().getName());
+	Получим в терминале имя - вадим, которое мы задали и курс SpringCourse который задался в апликейшнконтексте
