@@ -1,5 +1,8 @@
+import java.beans.BeanProperty;
+
 import javax.management.modelmbean.RequiredModelMBean;
 
+import org.graalvm.compiler.lir.CompositeValue.Component;
 import org.graalvm.compiler.serviceprovider.ServiceProvider;
 
 Sprimg Framework
@@ -150,3 +153,83 @@ courseService.getCourses().forEach(c->System.out.println(c.getName()));
 	System.out.println(person.getName());
 	System.out.println(person.getCourse().getName());
 	Получим в терминале имя - вадим, которое мы задали и курс SpringCourse который задался в апликейшнконтексте
+
+	Конфигурация на основе кода Java
+	Мы можем непосредственно в нашем коде создавать бины
+
+	@Configuration
+	public class BeanConfig{
+		@Bean
+		public ExampleBean bean(){
+			ExampleBean exampleBean = new ExampleBean();
+			exampleBean.setA(1);
+			return exampleBean;
+		}
+	}
+
+	AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+	ExampleBean exampleBean = context.getBean("bean", ExampleBean.class);
+	System.out.println(exampleBean.getA());
+
+	@Configuration 
+	@ComponentScan // автоматом просканирует текущий пакет и поищет классы помеченные стереотипом
+	public class Application{
+		@Bean
+		MessageService mockMessageService(){
+			return new MessageSerice(){
+				public MessageService(){
+					String getMessage(){
+						return "Hello world!";
+					}
+				}
+			}
+		}
+	}
+
+	public interface MessageService{
+		String getMessage();
+	}
+	@Component
+	public class MessagePrinter{
+		@Autowired
+		private MessageService service; // сюда внедрится ссылка
+
+		public void printMessage(){
+			System.out.println(service.getMessage());
+		}
+	}
+
+	Можем разбивать конфигурацию на несколько классов
+
+	@Configuration
+	public class ConfigBean1{
+		@Bean
+		public Bean1 bean1(){
+			return new Bean1();
+		}
+	}
+
+	@Configuration
+	@Import(ConfigBean1.class) // подключает первый конфиг
+	public class ConfigBean2{
+		@Bean
+		public Bean2 bean2(){
+			return new Bean2();
+		}
+	}
+
+	@Configuration
+	@ImportResourse("classpath:application-context.xml")
+	@PropertySource("classpath:jdbc.propertities")
+	public class AppConfig{
+		@Value("${jdbc.url}") // внедрится из файла jdbc.propertities
+		private String url;
+
+		@Value("${jdbc.username}")
+		private String username;
+
+		@Value ("${jdbc.password}")
+		private String password;
+	}
+
+	Spring Boot
