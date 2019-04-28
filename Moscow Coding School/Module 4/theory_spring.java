@@ -232,4 +232,4 @@ courseService.getCourses().forEach(c->System.out.println(c.getName()));
 		private String password;
 	}
 
-	Spring Boot
+	Spring Boot - быстрый старт спрингового проекта

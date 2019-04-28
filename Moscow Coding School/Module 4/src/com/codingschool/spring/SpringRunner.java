@@ -5,6 +5,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SpringRunner {
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
-    Person vasya = applicationContext.getBean("vasya", Person.class);
+    Person vasya = ApplicationContext.getBean("vasya", Person.class);
     System.out.println(vasya.getName());
 }
