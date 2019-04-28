@@ -99,3 +99,8 @@ public class JavaSchool{
 		this.course = course;
 	}
 }
+
+Внедрение идет по типу
+@Autowired
+@Qualifier("springCourse") - позволяет внедрить по имени
+private Course course;
