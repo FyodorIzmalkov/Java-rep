@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e8b5aedb-1bd2-4f58-a1f0-4ffcea61461b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
+=======
+    <list default="true" id="60d89ff9-08d0-4187-b167-74ced6a3459d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java" afterDir="false" />
+    </list>
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -17,13 +26,68 @@
     <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="112" column="68" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Moscow Coding School/Module 4/theory_spring.java" />
+        <option value="$PROJECT_DIR$/Moscow Coding School/Module 4/src/com/codingschool/spring/SpringRunner.java" />
+        <option value="$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java" />
+        <option value="$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="200" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -36,6 +100,15 @@
               <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
               <item name="Moscow Coding School" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
+              <item name="Moscow Coding School" type="462c0819:PsiDirectoryNode" />
+              <item name="Module 6" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
           </expand>
           <select />
         </subPane>
@@ -43,8 +116,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -65,32 +145,57 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="e8b5aedb-1bd2-4f58-a1f0-4ffcea61461b" name="Default Changelist" comment="" />
       <created>1555771665550</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555771665550</updated>
       <workItem from="1555771668158" duration="110000" />
+=======
+      <changelist id="60d89ff9-08d0-4187-b167-74ced6a3459d" name="Default Changelist" comment="" />
+      <created>1556464961494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556464961494</updated>
+      <workItem from="1556464967715" duration="9028000" />
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="9028000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12589356" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104531005" />
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969603" />
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -113,4 +218,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 4/theory_spring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="117" column="67" selection-start-line="117" selection-start-column="67" selection-end-line="117" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 4/src/com/codingschool/spring/SpringRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 6/JPA theory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="112" column="68" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
 </project>
