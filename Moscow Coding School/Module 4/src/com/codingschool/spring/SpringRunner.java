@@ -4,7 +4,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SpringRunner {
-    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
-    Person vasya = applicationContext.getBean("vasya", Person.class);
-    System.out.println(vasya.getName());
+    public static void main(String args[]) {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
+        Person vasya = applicationContext.getBean("vasya", Person.class);
+        System.out.println(vasya.getName());
+    }
 }

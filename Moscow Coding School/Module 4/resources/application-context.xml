@@ -2,5 +2,11 @@
 <beans>
     <bean id="vasya" class="com.codingschool.spring.model.Person">
         <property name="name" value="Vasiliy Poupkin"/>
+        <property name="spouse" ref="sveta"/>
+    </bean>
+
+    <bean id="sveta" class="com.codingschool.spring.model.Person">
+        <property name="name" value="Svatlana Poupkina"/>
+        <property name="spouse" ref="vasya"/>
     </bean>
 </beans>
