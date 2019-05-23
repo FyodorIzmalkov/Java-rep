@@ -113,3 +113,9 @@ private List<Student> students;
 Стратегии наследования InheritanceType - SINGLE_TABLE - most popular
 TABLE_PER_CLASS
 JOINED
+
+@OneToMany(mappedBy = "codingSchool") - говорит о том что другая сторона отношений является главной
+private List<Course> courses = new ArrayList<>();
+So courses is mappedBy codingSChool (it has several courses)
+
+Либо все аннотации стоят перед полями либо перед геттерами и сеттерами
