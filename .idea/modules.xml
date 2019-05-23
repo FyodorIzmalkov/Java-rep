@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/Java-rep.iml" filepath="$PROJECT_DIR$/Java-rep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moscow Coding School/Moscow Coding School.iml" filepath="$PROJECT_DIR$/Moscow Coding School/Moscow Coding School.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testproject1/src/main/main.iml" filepath="$PROJECT_DIR$/testproject1/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moscow Coding School/Module 3/my-app/src/main/main1.iml" filepath="$PROJECT_DIR$/Moscow Coding School/Module 3/my-app/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven/src/main/main2.iml" filepath="$PROJECT_DIR$/maven/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testproject1/src/test/test.iml" filepath="$PROJECT_DIR$/testproject1/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moscow Coding School/Module 3/my-app/src/test/test1.iml" filepath="$PROJECT_DIR$/Moscow Coding School/Module 3/my-app/src/test/test1.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-rep.iml" filepath="$PROJECT_DIR$/.idea/Java-rep.iml" />
+>>>>>>> 28792a8bd33660a15d664109a6c5a0f4ec0ee070
     </modules>
   </component>
 </project>
