@@ -1,0 +1,3 @@
+[submodule "Coursera/Course1StarterCode"]
+	path = Coursera/Course1StarterCode
+	url = https://github.com/cjalvarado/Course1StarterCode.git
