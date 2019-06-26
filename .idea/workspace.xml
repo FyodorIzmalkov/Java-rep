@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbcc4171-5218-4e49-b707-1f200f9e0de0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections framework/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections framework/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections framework/MyArrayListVsMyLnkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections framework/MyArrayListVsMyLnkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections framework/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            <state relative-caret-position="1518">
+              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -52,6 +52,18 @@
                 <element signature="e#938#939#0" expanded="true" />
                 <element signature="e#1363#1364#0" expanded="true" />
                 <element signature="e#1390#1391#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Collections framework/MyArrayListVsMyLnkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +100,7 @@
         <option value="$PROJECT_DIR$/Collections framework/Store.java" />
         <option value="$PROJECT_DIR$/Collections framework/MyArrayList.java" />
         <option value="$PROJECT_DIR$/Collections framework/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/Collections framework/MyArrayListVsMyLnkedList.java" />
       </list>
     </option>
   </component>
@@ -113,20 +126,7 @@
             <path>
               <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
+              <item name="Collections framework" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,22 +159,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
+  <component name="RunManager" selected="Application.MyArrayListVsMyLnkedList">
     <configuration name="CF1097A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Codeforces.CF1097A" />
-      <module name="Java-rep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codeforces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CF785A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codeforces.CF785A" />
       <module name="Java-rep" />
       <extension name="coverage">
         <pattern>
@@ -206,6 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyArrayListVsMyLnkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyArrayListVsMyLnkedList" />
+      <module name="Java-rep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyLinkedList" />
       <module name="Java-rep" />
@@ -215,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyArrayListVsMyLnkedList" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.MyArrayList" />
         <item itemvalue="Application.CF935A" />
         <item itemvalue="Application.CF1097A" />
-        <item itemvalue="Application.CF785A" />
       </list>
     </recent_temporary>
   </component>
@@ -235,12 +229,12 @@
       <updated>1560526529306</updated>
       <workItem from="1560526540910" duration="154000" />
       <workItem from="1560526750544" duration="4940000" />
-      <workItem from="1561541668029" duration="2257000" />
+      <workItem from="1561541668029" duration="5087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7351000" />
+    <option name="totallyTimeSpent" value="10181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,7 +258,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289166" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,7 +268,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289166" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3289166" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections framework/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        <state relative-caret-position="1518">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
           <folding>
             <element signature="e#224#225#0" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
@@ -359,6 +353,16 @@
             <element signature="e#938#939#0" expanded="true" />
             <element signature="e#1363#1364#0" expanded="true" />
             <element signature="e#1390#1391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections framework/MyArrayListVsMyLnkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
