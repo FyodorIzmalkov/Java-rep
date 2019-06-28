@@ -1,4 +1,6 @@
-public class MySecondArrayList<V> {
+import java.util.Iterator;
+
+public class MySecondArrayList<V> implements Iterable<V> {
 
     public static final int DEFAULT_SIZE = 10;
     public static final int RATE = 2;
@@ -31,6 +33,23 @@ public class MySecondArrayList<V> {
         return (V)store[index];
     }
 
+    @Override
+    public Iterator<V> iterator(){
+        return new Iterator<V>(){
+            private int current = 0;
+
+            @Override
+            public boolean hasNext(){
+                return current < size;
+            }
+
+            @Override
+            public V next(){
+                return (V) store[current++];
+            }
+        };
+    }
+
     public static void main(String[] args) {
         MySecondArrayList<Integer> intlist = new MySecondArrayList<>();
 
@@ -51,6 +70,11 @@ public class MySecondArrayList<V> {
 
         for (int i = 0; i < intlist.size; i++) {
             System.out.println(stringlist.get(i) + " ");
+        }
+
+        System.out.println("\n\n");
+        for(String str : stringlist){
+            System.out.println(str);
         }
     }
 }
