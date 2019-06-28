@@ -29,15 +29,15 @@ public class SberMap <K, V>{
             if (head == null) head = new Node(key, value);
             else{
                 Node previous = null;
-                Node curent = head;
+                Node current = head;
 
-                while (curent != null){
-                    if (curent.key.equals(key)){
-                        curent.value = value;
+                while (current != null){
+                    if (current.key.equals(key)){
+                        current.value = value;
                         return;
                     }
-                    previous = curent;
-                    curent = curent.next;
+                    previous = current;
+                    current = current.next;
                 }
                 previous.next = new Node(key, value);
             }
