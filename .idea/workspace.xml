@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbcc4171-5218-4e49-b707-1f200f9e0de0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections framework/MySecondArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections framework/MySecondArrayList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,38 +19,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections framework/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-616">
-              <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Collections framework/MySecondArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-              <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1144">
+              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/Iterator.java">
+        <entry file="file://$PROJECT_DIR$/Collections framework/MySecondArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state>
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Collections framework/MyThirdArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections framework/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
+            <state relative-caret-position="1496">
               <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="e#1363#1364#0" expanded="true" />
@@ -108,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections framework/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="770">
               <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
               <folding>
                 <element signature="e#192#193#0" expanded="true" />
@@ -157,6 +154,7 @@
         <option value="$PROJECT_DIR$/Collections framework/Person.java" />
         <option value="$PROJECT_DIR$/Collections framework/SberMap.java" />
         <option value="$PROJECT_DIR$/Collections framework/MySecondArrayList.java" />
+        <option value="$PROJECT_DIR$/Collections framework/MyThirdArrayList.java" />
       </list>
     </option>
   </component>
@@ -170,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +185,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -216,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySecondArrayList">
+  <component name="RunManager" selected="Application.MyThirdArrayList">
     <configuration name="MyArrayListVsMyLnkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyArrayListVsMyLnkedList" />
       <module name="Java-rep" />
@@ -224,15 +222,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyLinkedList" />
+    <configuration name="MySecondArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MySecondArrayList" />
       <module name="Java-rep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySecondArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MySecondArrayList" />
+    <configuration name="MyThirdArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThirdArrayList" />
       <module name="Java-rep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyThirdArrayList" />
         <item itemvalue="Application.MySecondArrayList" />
         <item itemvalue="Application.SberMap" />
         <item itemvalue="Application.SberTree" />
         <item itemvalue="Application.MyArrayListVsMyLnkedList" />
-        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -276,12 +274,13 @@
       <workItem from="1560526750544" duration="4940000" />
       <workItem from="1561541668029" duration="5469000" />
       <workItem from="1561624488635" duration="8001000" />
-      <workItem from="1561707284519" duration="1877000" />
+      <workItem from="1561707284519" duration="2375000" />
+      <workItem from="1561917182088" duration="433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20441000" />
+    <option name="totallyTimeSpent" value="21372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +295,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122019075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12281399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -306,14 +305,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289166" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289166" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289166" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289166" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -397,6 +396,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections framework/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections framework/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Collections framework/MyArrayListVsMyLnkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2552">
@@ -429,24 +460,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections framework/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="770">
           <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
           <folding>
             <element signature="e#192#193#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections framework/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -458,35 +478,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections framework/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Collections framework/MySecondArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state>
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections framework/MyThirdArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
           </folding>
         </state>
       </provider>
