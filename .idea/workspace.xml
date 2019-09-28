@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbcc4171-5218-4e49-b707-1f200f9e0de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algs/Algs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-rep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-rep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-rep/Java-rep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-rep/Java-rep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-rep/META-INF/Java-rep.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/villagebank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/villagebank/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/villagebank/src/main/java/com/example/villagebank/ACCOUNT_TYPE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/villagebank/src/main/java/com/example/villagebank/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/villagebank/src/main/java/com/example/villagebank/BankDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/villagebank/src/main/java/com/example/villagebank/Clients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/villagebank/src/main/java/com/example/villagebank/VillagebankApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/villagebank/src/test/java/com/example/villagebank/VillagebankApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections framework/SberTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
+            <state relative-caret-position="935">
               <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
@@ -30,26 +39,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections framework/ThirdSberTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algs/src/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="352">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algs/src/test.java">
+        <entry file="file://$PROJECT_DIR$/villagebank/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="492">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/villagebank/src/main/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/villagebank/src/test/java/com/example/villagebank/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +96,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -89,8 +125,10 @@
         <option value="$PROJECT_DIR$/Collections framework/MyFourthArrayList.java" />
         <option value="$PROJECT_DIR$/Collections framework/MyThirdLinkedList.java" />
         <option value="$PROJECT_DIR$/Collections framework/ThirdSberTree.java" />
-        <option value="$PROJECT_DIR$/Algs/src/MergeSort.java" />
-        <option value="$PROJECT_DIR$/Algs/src/test.java" />
+        <option value="$PROJECT_DIR$/villagebank/pom.xml" />
+        <option value="$PROJECT_DIR$/villagebank/src/main/Calculator.java" />
+        <option value="$PROJECT_DIR$/villagebank/src/main/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/villagebank/src/test/java/com/example/villagebank/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -114,13 +152,20 @@
             <path>
               <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="Algs" type="462c0819:PsiDirectoryNode" />
+              <item name="villagebank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
-              <item name="Algs" type="462c0819:PsiDirectoryNode" />
+              <item name="villagebank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-rep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-rep" type="462c0819:PsiDirectoryNode" />
+              <item name="villagebank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,21 +176,34 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/villagebank/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="villagebank.src.main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,14 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
-      <module name="Algs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="MyFourthArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyFourthArrayList" />
       <module name="Java-rep" />
@@ -195,9 +246,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-rep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="villagebank.src.test.java.com.example.villagebank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="villagebank.src.test.java.com.example.villagebank" />
+      <option name="MAIN_CLASS_NAME" value="villagebank.src.test.java.com.example.villagebank.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.ThirdSberTree" />
         <item itemvalue="Application.MyThirdLinkedList" />
         <item itemvalue="Application.MyFourthArrayList" />
@@ -221,13 +287,13 @@
       <workItem from="1561624488635" duration="8001000" />
       <workItem from="1561707284519" duration="2375000" />
       <workItem from="1561917182088" duration="4614000" />
-      <workItem from="1561976805224" duration="4858000" />
-      <workItem from="1569671135547" duration="3070000" />
+      <workItem from="1561976805224" duration="3477000" />
+      <workItem from="1562181945704" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33481000" />
+    <option name="totallyTimeSpent" value="29753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,10 +305,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12440381" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,7 +317,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289166" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,24 +342,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Algs/src/MergeSort.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Algs/src/MergeSort.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Moscow Coding School/Module 5/Spring AOP.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -307,24 +355,8 @@
     <entry file="file://$PROJECT_DIR$/Codeforces/CF785A.java" />
     <entry file="file://$PROJECT_DIR$/Codeforces/CF1097A.java" />
     <entry file="file://$PROJECT_DIR$/Codeforces/CF935A.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/Java-rep/GraphMain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Java-rep/MyArrayList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <folding>
-            <element signature="e#0#2230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Java-rep/GraphMain.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/Java-rep/MyArrayList.class" />
     <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3359">
@@ -516,29 +548,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections framework/SberTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
+        <state relative-caret-position="935">
           <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/villagebank/src/test/java/com/example/villagebank/VillagebankApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections framework/ThirdSberTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="352">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algs/src/test.java">
+    <entry file="file://$PROJECT_DIR$/villagebank/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="492">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algs/src/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/villagebank/src/main/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/villagebank/src/test/java/com/example/villagebank/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
