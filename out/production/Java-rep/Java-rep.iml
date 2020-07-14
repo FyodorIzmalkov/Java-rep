@@ -23,6 +23,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Moscow Coding School" />
       <excludeFolder url="file://$MODULE_DIR$/maven" />
       <excludeFolder url="file://$MODULE_DIR$/testproject1" />
+      <excludeFolder url="file://$MODULE_DIR$/villagebank" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
